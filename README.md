@@ -1,6 +1,4 @@
-A library app filled with books you can search up. This app is made with React.js, Vite, and Tailwind CSS, as well as API implementation.
-
-
+A library app filled with books you can search up. This app is made with React.js, Vite, and  CSS, Firebase database as the backend storage, and API implementation.
 
 
 # React + Vite

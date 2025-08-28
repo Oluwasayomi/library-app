@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import { useEffect, useState } from 'react'
+import Home from './pages/Home/Home'
 
 const App = () => {
   return (
     <div>
-    <h2>Functional Arrow Components</h2>
+      <Home/>
     </div>
   )
-} 
+}
 
 export default App
