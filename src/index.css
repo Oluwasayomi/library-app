@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap");
+
 *{
   margin: 0;
   padding: 0;
@@ -7,4 +9,5 @@
 body {
   background: black;
   color: white;
+  font-family: 'Story+Script';
 }
