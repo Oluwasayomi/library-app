@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import Navbar from '../../components/Navbar/Navbar'
 import hero_banner from '../../assets/hero_banner.png'
-import hero_title from '../../assets/hero_title.png'
+import hero_title from '../../assets/hero_title2.png'
 
 const Home = () => {
   return (
