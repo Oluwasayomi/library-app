@@ -2,10 +2,11 @@ import React, { useEffect, useRef } from 'react'
 import './TitleCards.css'
 import cards_data from '../../assets/cards/Cards_data'
 
-const TitleCards = () => {
+const TitleCards = ({title, category}) => {
+
   return (
     <div className='titlecards'>
-      <h2>Popular Books</h2>
+      <h2>{title?title:"Popular Books"}</h2>
       <div className='card-list'>
         {cards_data.map((card, index)=>{
           return <div className='card' key={index}>
