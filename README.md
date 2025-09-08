@@ -8,6 +8,11 @@ A library app filled with books you can search for and read. This app is made wi
 
 <img width="1781" height="905" alt="image" src="https://github.com/user-attachments/assets/42f228a9-69ab-4c77-acb5-6c143e637cb7" />
 
+<img width="1758" height="897" alt="image" src="https://github.com/user-attachments/assets/98551e3b-dd7e-44d3-b778-2281425fed5b" />
+
+<img width="1702" height="900" alt="image" src="https://github.com/user-attachments/assets/579de626-77af-4084-aaf7-b9291740592a" />
+
+
 
 
 # React + Vite
