@@ -23,7 +23,7 @@
     width: 200px;
     height: 290px;
     border-radius: 4px;
-    cursor: pointer;;
+    cursor: pointer;
 }
 
 .card-list .card {
@@ -32,6 +32,9 @@
 
 .card-list .card p {
     position: absolute;
+    text-shadow: 0 0 5px rgba(1, 1, 1, 0.6);
+    font-weight: 800;
+    white-space: normal;
     bottom: 10px;
-    right: 10px;
+    right: 2px;
 }
