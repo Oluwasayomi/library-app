@@ -8,10 +8,10 @@ const Login = () => {
   return (
     <div className='login'>
       <img src={logo} alt="logo" className='login-logo'/>
+      
       <div className='login-form'>
         <h1>{signState}</h1>
         <form>
-
           {signState==="Sign Up"? <input type='text' placeholder='Your name'/>: <></>}
 
           <input type='email' placeholder='Email'/>

@@ -1,4 +1,4 @@
-A library app filled with books you can search for and read. This app is made with React.js, Vite, and CSS, Firebase database as the backend storage, and API implementation.
+A library app filled with books you can search for and read. This app is made with React.js, Vite, and CSS, with Firebase database as the backend storage.
 
 <img width="1772" height="908" alt="image" src="https://github.com/user-attachments/assets/973d4ba9-d2ab-47a9-b98c-d8210ac53c2b" />
 
