@@ -2,13 +2,11 @@ A library app filled with books you can search for and read. This app is made wi
 
 <img width="1772" height="908" alt="image" src="https://github.com/user-attachments/assets/973d4ba9-d2ab-47a9-b98c-d8210ac53c2b" />
 
-<img width="1782" height="905" alt="image" src="https://github.com/user-attachments/assets/9b8d36de-a932-459f-bfe1-60d31d9458bf" />
+<img width="1792" height="902" alt="image" src="https://github.com/user-attachments/assets/1f758eb8-f6db-446d-a297-5dee46bf6e14" />
 
-<img width="1786" height="902" alt="image" src="https://github.com/user-attachments/assets/20241dd8-addd-4c84-a7a7-85da66c46d6d" />
+<img width="1788" height="890" alt="image" src="https://github.com/user-attachments/assets/9ba5783f-a12c-4185-bd10-28ed1edb496b" />
 
-<img width="1781" height="905" alt="image" src="https://github.com/user-attachments/assets/42f228a9-69ab-4c77-acb5-6c143e637cb7" />
-
-<img width="1758" height="897" alt="image" src="https://github.com/user-attachments/assets/98551e3b-dd7e-44d3-b778-2281425fed5b" />
+<img width="1788" height="875" alt="image" src="https://github.com/user-attachments/assets/53e2e213-0c50-49b7-a202-c1acadcc8589" />
 
 <img width="1702" height="900" alt="image" src="https://github.com/user-attachments/assets/579de626-77af-4084-aaf7-b9291740592a" />
 
