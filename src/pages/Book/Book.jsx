@@ -15,9 +15,27 @@ const Book = () => {
   return (
     <div className='book'>
       <img src={back_arrow_icon} alt="back arrow" />
-      <iframe width='90%' height='90%' 
-      src='https://www.youtube.com/embed/LoK7yWMXAkA'
-      title='wattpad' frameBorder='0' allowFullScreen></iframe>
+      {/*<iframe width='90%' height='90%' 
+      src={`https://www.wattpad.com/story/embed/${book.link}`}
+      title='Book Preview' frameBorder='0' allowFullScreen></iframe> 
+      commented since wattpad embed image is not showing*/} 
+
+      <div className='book-details'>
+        <div className='left_image'>
+        <img src={book.image} alt="book image"/>
+        </div>
+
+        <div className='right_description'>
+          <h3>Book Preview</h3>
+          <p>{book.description}</p>
+          <a
+          href={`https://www.wattpad.com/story/${book.link}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className='read-button'>
+          Read Full Story on Wattpad </a>
+        </div>
+      </div>
 
       <div className='book-info'>
         <p>Published On: Wattpad</p>
