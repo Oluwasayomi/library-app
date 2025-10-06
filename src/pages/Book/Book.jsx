@@ -27,7 +27,9 @@ const Book = () => {
 
         <div className='right_description'>
           <h3>Book Preview</h3>
-          <p>{book.description}</p>
+          <p>{book.description.split('\n').map((line, i) => (
+            <span key={i}> {line} <br /> </span>))}
+          </p>
           <button className="read-button"
           onClick={() =>
           window.open(
