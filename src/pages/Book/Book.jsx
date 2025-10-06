@@ -30,8 +30,13 @@ const Book = () => {
           <p>{book.description}</p>
           <button className="read-button"
           onClick={() =>
-          window.open(`https://www.wattpad.com/story/${book.link}`, '_blank')}>
-          Read Full Story on Wattpad
+          window.open(
+            book.categories.includes("Upcoming")
+            ? `https://www.wattpad.com/user/${book.link}`
+            : `https://www.wattpad.com/story/${book.link}`, '_blank')}>
+          {book.categories.includes("Upcoming")
+            ? "Check Author's Page"
+            : "Read Full Story on Wattpad"}
           </button>
         </div>
       </div>
