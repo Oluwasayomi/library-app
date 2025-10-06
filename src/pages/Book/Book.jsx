@@ -14,7 +14,7 @@ const Book = () => {
 
   return (
     <div className='book'>
-      <img src={back_arrow_icon} alt="back arrow" />
+      <img src={back_arrow_icon} alt="back arrow" className='book_arrow'/>
       {/*<iframe width='90%' height='90%' 
       src={`https://www.wattpad.com/story/embed/${book.link}`}
       title='Book Preview' frameBorder='0' allowFullScreen></iframe> 
@@ -28,12 +28,11 @@ const Book = () => {
         <div className='right_description'>
           <h3>Book Preview</h3>
           <p>{book.description}</p>
-          <a
-          href={`https://www.wattpad.com/story/${book.link}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className='read-button'>
-          Read Full Story on Wattpad </a>
+          <button className="read-button"
+          onClick={() =>
+          window.open(`https://www.wattpad.com/story/${book.link}`, '_blank')}>
+          Read Full Story on Wattpad
+          </button>
         </div>
       </div>
 
