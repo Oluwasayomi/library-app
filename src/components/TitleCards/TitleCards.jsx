@@ -23,10 +23,10 @@ const TitleCards = ({title, category = "Popular"}) => {
       <h2>{title?title:"Popular Books"}</h2>
       <div className='card-list'>
         {shuffledCards.map((card, index)=>{
-          return <div className='card' key={index}>
+          return <Link to={`/book/${card.id}`}className='card' key={index}>
             <img src={card.image} alt="image"/>
             <p>{card.name}</p>
-          </div>
+          </Link>
         })}
       </div>
     </div>

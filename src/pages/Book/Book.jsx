@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import './Book.css'
 import back_arrow_icon from '../../assets/back_arrow_icon.png'
 import cards_data from '../../assets/cards/Cards_data'
@@ -7,6 +7,7 @@ import cards_data from '../../assets/cards/Cards_data'
 const Book = () => {
   const { id } = useParams();
   const book = cards_data.find(cards => cards.id === Number(id));
+  const navigate = useNavigate();
 
   if (!book) {
     return <div className='book'><p>Book not found.</p></div>;
@@ -14,7 +15,7 @@ const Book = () => {
 
   return (
     <div className='book'>
-      <img src={back_arrow_icon} alt="back arrow" className='book_arrow'/>
+      <img src={back_arrow_icon} alt="back arrow" className='book_arrow' onClick={()=>{navigate('/')}}/>
       {/*<iframe width='90%' height='90%' 
       src={`https://www.wattpad.com/story/embed/${book.link}`}
       title='Book Preview' frameBorder='0' allowFullScreen></iframe> 
