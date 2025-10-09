@@ -12,6 +12,7 @@ A library app filled with books from a particular author, with book details as w
 
 <img width="1893" height="910" alt="image" src="https://github.com/user-attachments/assets/09fe96bf-1c78-4789-8f25-2c96efc06b96" />
 
+<img width="1803" height="902" alt="image" src="https://github.com/user-attachments/assets/02cabe36-a597-4228-8026-7f9f3001497e" />
 
 
 # React + Vite
