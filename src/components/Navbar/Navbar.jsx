@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo 3.png'
 import search_icon from '../../assets/search_icon.svg'
@@ -7,35 +7,47 @@ import profile_img from '../../assets/profile_img.png'
 import caret_icon from '../../assets/caret_icon.svg'
 
 const Navbar = () => {
-  return (
-    <div className='navbar'>
-        <div className='navbar-left'>
-            <img src={logo} alt="logo"></img>
-            <ul>
-                <li>Home</li>
-                <li>Book Series</li>
-                <li>Novels</li>
-                <li>New & Popular</li>
-                <li>My List</li>
-                <li>Browse by Genre</li>
-            </ul>
-        </div>
+    const navRef = useRef();
 
-        <div className='navbar-right'>
-            <img src={search_icon} alt="search" className='icons'/>
-            <p>Children</p>
-            <img src={bell_icon} alt="bell" className='icons'/>
+    useEffect(()=>{
+        window.addEventListener('scroll', ()=>{
+            if(window.scrollY >= 80){
+                navRef.current.classList.add('nav-dark')
+            }
+            else{
+                navRef.current.classList.remove('nav-dark')
+            }
+        })
+    }, [])
+    
+    return (
+        <div ref={navRef} className='navbar'>
+            <div className='navbar-left'>
+                <img src={logo} alt="logo"></img>
+                <ul>
+                    <li>Home</li>
+                    <li>Book Series</li>
+                    <li>Novels</li>
+                    <li>New & Popular</li>
+                    <li>My List</li>
+                    <li>Browse by Genre</li>
+                </ul>
+            </div>
 
-            <div className='navbar-profile'>
-                <img src={profile_img} alt="profile image" className='profile'/>
-                <img src={caret_icon} alt="caret"/>
-                <div className='dropdown'>
-                    <p>Sign out of Library</p>
-                </div>
-            </div> 
+            <div className='navbar-right'>
+                <img src={search_icon} alt="search" className='icons'/>
+                <p>Children</p>
+                <img src={bell_icon} alt="bell" className='icons'/>
+
+                <div className='navbar-profile'>
+                    <img src={profile_img} alt="profile image" className='profile'/>
+                    <img src={caret_icon} alt="caret"/>
+                    <div className='dropdown'>
+                        <p>Sign out of Library</p>
+                    </div>
+                </div> 
+            </div>      
         </div>
-      
-    </div>
   )
 }
 
