@@ -1,0 +1,34 @@
+import { initializeApp } from "firebase/app";
+import { createUserWithEmailAndPassword, getAuth } from "firebase/auth/cordova";
+import { addDoc, collection, getFirestore } from "firebase/firestore/lite";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAVdDyPRsKMmWdMVXBG8Pnxv8Yk21kCoj8",
+  authDomain: "library-app-bfa4a.firebaseapp.com",
+  projectId: "library-app-bfa4a",
+  storageBucket: "library-app-bfa4a.firebasestorage.app",
+  messagingSenderId: "73334464477",
+  appId: "1:73334464477:web:b6602602b6c9c9ebdce034"
+};
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+const signup = async (name, email, password)=>{
+    try{
+        const res = await createUserWithEmailAndPassword(auth, email, password);
+        const user = res.user;
+        await addDoc(collection(db, "user"), {
+            uid: user.uid,
+            name,
+            authProvider: "local",
+            email,
+
+        })
+    }
+    catch(error){
+        console.log(error);
+        alert(error);
+    }
+}
