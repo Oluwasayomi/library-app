@@ -1,6 +1,7 @@
 import { use, useEffect, useState } from 'react'
 import { Routes, Route, useNavigate } from 'react-router-dom'
 import { onAuthStateChanged } from 'firebase/auth'
+import { ToastContainer, toast } from 'react-toastify';
 import Home from './pages/Home/Home'
 import Login from './pages/Login/Login'
 import Book from './pages/Book/Book'
@@ -25,6 +26,7 @@ const App = () => {
 
   return (
     <div>
+      <ToastContainer theme='black'/>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/login' element={<Login/>} />
