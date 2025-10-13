@@ -1,7 +1,10 @@
-A library app filled with books from a particular author, with book details as well as links to the books displayed. This app is built with React.js, Vite, and CSS, utilizing Firebase as the backend database.
+A library app filled with books from a particular author, with book details as well as links to the books displayed. This app is built with React.js, Vite, CSS, api implentation, as well as utilizing Firebase as the backend database.
 
+Hero Background/Advertised Book Page:
 <img width="1772" height="908" alt="image" src="https://github.com/user-attachments/assets/973d4ba9-d2ab-47a9-b98c-d8210ac53c2b" />
 
+
+Home Page:
 <img width="1792" height="902" alt="image" src="https://github.com/user-attachments/assets/1f758eb8-f6db-446d-a297-5dee46bf6e14" />
 
 <img width="1788" height="890" alt="image" src="https://github.com/user-attachments/assets/9ba5783f-a12c-4185-bd10-28ed1edb496b" />
@@ -10,9 +13,21 @@ A library app filled with books from a particular author, with book details as w
 
 <img width="1702" height="900" alt="image" src="https://github.com/user-attachments/assets/579de626-77af-4084-aaf7-b9291740592a" />
 
+
+Navbar dark background shown:
+<img width="1803" height="902" alt="image" src="https://github.com/user-attachments/assets/02cabe36-a597-4228-8026-7f9f3001497e" />
+
+
+Book details Page:
 <img width="1893" height="910" alt="image" src="https://github.com/user-attachments/assets/09fe96bf-1c78-4789-8f25-2c96efc06b96" />
 
-<img width="1803" height="902" alt="image" src="https://github.com/user-attachments/assets/02cabe36-a597-4228-8026-7f9f3001497e" />
+
+Sign In and Sign Up Page:
+<img width="1891" height="911" alt="image" src="https://github.com/user-attachments/assets/696d912c-14b0-47bb-b572-8616e70f6e2d" />
+
+<img width="1896" height="913" alt="image" src="https://github.com/user-attachments/assets/b9574188-82da-4d06-bd0c-f7b80b7919d4" />
+
+
 
 
 # React + Vite
