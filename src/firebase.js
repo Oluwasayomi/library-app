@@ -4,12 +4,12 @@ import { addDoc, collection, getFirestore } from "firebase/firestore/lite";
 import { toast } from "react-toastify";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAVdDyPRsKMmWdMVXBG8Pnxv8Yk21kCoj8",
-  authDomain: "library-app-bfa4a.firebaseapp.com",
-  projectId: "library-app-bfa4a",
-  storageBucket: "library-app-bfa4a.firebasestorage.app",
-  messagingSenderId: "73334464477",
-  appId: "1:73334464477:web:b6602602b6c9c9ebdce034"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
