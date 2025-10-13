@@ -91,3 +91,25 @@
     justify-content: space-between;
     width: 90%;
 }
+
+@media (max-width:800px) {
+    .right_description p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    .right-description h3 {
+      font-size: 20px; 
+      margin: 6px 0 6px 0; 
+    }
+    .right-description p {
+        font-size: 12px;
+        margin: 6px 0 6px 0;
+    }
+    .read-button {
+       padding: 4px 4px;
+       font-weight: 400;
+       font-size: 12px;
+    }
+}
