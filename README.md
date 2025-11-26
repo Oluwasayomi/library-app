@@ -1,3 +1,5 @@
+<img width="1793" height="902" alt="Screenshot 2025-10-02 200412" src="https://github.com/user-attachments/assets/a7dc61c8-0d85-4e4e-8eb8-052f680dbaba" />
+
 ## 🏛️ Library App
 
 A library app for books written by a particular author (Tennyliz), including the book details and a link to the online reading platform. In essence, it is a library app that has all of an author's books in one place, in an easy-to-navigate format for readers. This app is built using React.js, Vite, CSS, api implementation, with Firebase for the database.
