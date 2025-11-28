@@ -31,12 +31,12 @@ Here are the website's features:
 
 ## ✍️ The Process
 
-Oftentimes, websites/apps for books are very organised when it comes to their general books, having various genres and recommendations. However, when you click on a beloved author's page, all their books are simply categorised under 'Published Books', leaving it up to the Author to make their page intuitive enough so that readers know which books would catch their fancy. 
+Oftentimes, websites/apps for books are very well organised, with various genres and recommendations. However, when you click on a beloved author's page, all their books are simply categorised under 'Published Books', leaving it up to the Author to make their page intuitive enough so that readers know which books would catch their fancy. 
 This is especially frustrating for the readers when the author has various books with even more varied genres, and all you want is a book just like the one you just read from this same author. 
 
-This app fixes that as it categorises the author's books into different genres, as well as gives you recommendations based on the books you have read from the author! With this, it builds the bridge between author and reader, making the reader more likely to read and enjoy the author's work, as well as reducing the work for the author having to promote their books themselves! 
+This app fixes that by categorising the author's books into different genres and giving you recommendations based on the books you have read by the author! With this, it builds the bridge between author and reader, making the reader more likely to read and enjoy the author's work, as well as reducing the work for the author having to promote their books themselves! 
 
-I first catalogued all the author's books, ensuring I had the different genres/types for each book. Looking into the design format, I brought the idea to life using HTML and styling it with CSS to create the home page. Once the basic website was in place, I allocated those types to each book, ensuring they showed up under the appropriate section on the home page. I then added a function to ensure the books' listing would be randomised, instead of staying the same all the time. 
+I first catalogued all the author's books, ensuring I had the different genres/types for each book. Looking into the design format, I brought the idea to life using React, styling it with CSS to create the home page. Once the basic website was in place, I allocated those types to each book, ensuring they showed up under the appropriate section on the home page. I then added a function to ensure the books' listing would be randomised, instead of staying the same all the time. 
 
 I then created the sign-in/sign-up page, adding various details to it, such as having to put in a strong password, having proper credentials, etc. I also added the user's information to the database to ensure proper sign-in. I also added a short loading screen that would show when the user successfully logged in, before bringing them to their home page. 
 
@@ -53,8 +53,8 @@ This was a full-stack development challenge that aimed to connect literature and
 To run the project, follow these steps:
 
 * Clone the repository to your local machine
-* Install dependencies: 'npm install'
-* Run development server: 'npm run dev'
+* Install dependencies: 'npm install'.
+* Run development server: 'npm run dev'.
 * Open 'http://localhost:5173' in your browser
 
 ## 📷 App Preview:
