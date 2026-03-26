@@ -1,11 +1,12 @@
 import { use, useEffect, useState } from 'react'
 import { Routes, Route, useNavigate } from 'react-router-dom'
+import {auth} from './firebase'
 import { onAuthStateChanged } from 'firebase/auth'
 import { ToastContainer, toast } from 'react-toastify';
 import Home from './pages/Home/Home'
 import Login from './pages/Login/Login'
 import Book from './pages/Book/Book'
-import {auth} from './firebase'
+import NotFound from './pages/NotFound/NotFound';
 
 const App = () => {
 
@@ -31,6 +32,7 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/book/:id' element={<Book/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
     </div>
   )
